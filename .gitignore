@@ -1,0 +1,41 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore temporary files
+*.tmp
+*.log
+*.lock
+*.cache
+*.temp
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore .NET generated files
+*.exe
+*.dll
+*.pdb
+*.mdb
+
+# Ignore publish outputs
+out/
+
+# Ignore package and cache folders
+packages/
+.vscode/
+.vs/
+TestResults/
+node_modules/
+
+# Ignore configuration and environment files
+appsettings.*.json
+.env
+
+# Ignore other files
+*.DS_Store
+Thumbs.db
